@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Online Delivery</title>
+    <link rel="stylesheet" href="./delivery.css">
+    <link rel="login" href="./login.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="./delivery.js"></script>
+</head>
+<body>
+    <header id="header">
+        <button id="menu-button"><img id="button" src="./menubutton.png" alt=""></button>
+        <div id="side-menu">
+        <nav>
+            <ul>
+                <li><a href="#Produce">Produce</a></li>
+                <li><a href="#Bread&Bakery">Bread & bakery</a></li>
+                <li><a href="#Dairy&Egg">Dairy & egg</a></li>
+                <li><a href="#Meats&Delis">Meats & delis</a></li>
+                <li><a href="#Coffee&Tea">Coffee & tea</a></li>
+                <li><a href="#Cereals&Baking">Cereals & baking</a></li>
+                <li><a href="#Pasta&Packagedfoods">Pasta & packaged foods</a></li>
+                <li><a href="#Cans&Jars">Cans & jars</a></li>
+                <li><a href="#Herbs&Spices">Herbs & spices</a></li>
+                <li><a href="#Sauces&Dressings">Sauces & dressings</a></li>
+                <li><a href="#Frozen">Frozen</a></li>
+                <li><a href="#Chips&Nuts">Chips & nuts</a></li>
+                <li><a href="#Candy&Snacks">Candy & snacks</a></li>
+                <li><a href="#Water">Water</a></li>
+                <li><a href="#Drinks">Drinks</a></li>
+                <li><a href="#Alcohol">Alcohol</a></li>
+                <li><a href="#Hygiene">Hygiene</a></li>
+                <li><a href="#Tobacco">Tobacco</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div id="header-right">
+            <button id="sign up-button">Sign up</button>
+            <button id="login-button" onclick="openSecondPage()"><a href="./login.html"></a>Log in</button>
+        </div>
+    </header>
+    <main>
+        <h2>Our Products</h2>
+        <div id="product-list">
+        <div class="product">
+            <img src="product1.jpg" alt="product1">
+            <h3>Product 1</h3>
+            <p>Description of product 1</p>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="product2">
+            <h3>Product 2</h3>
+            <p>Description of product 2</p>
+        </div>
+        <!-- Add more products here -->
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top img-fluid" src="./assets/produce/vegetables/Carrots.jpg" alt="Product 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top img-fluid" src="./assets/produce/vegetables/cauliflower.jpg" alt="Product 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 2</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top img-fluid" src="product-3.jpg" alt="Product 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Company Name</h3>
+                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">Company Name © 2017</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function openSecondPage() 
+        {
+			window.open('./login.html', '_blank');
+		}
+    </script>
+</body>
+</html>
